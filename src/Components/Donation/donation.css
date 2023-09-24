@@ -1,0 +1,27 @@
+.responsive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+      gap: 1rem;
+}
+
+
+
+
+.bg{
+      background-color: red;
+      position: relative;
+}
+
+
+.bg::before{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      height: 100px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.339);
+}
+
+.line-height{
+      line-height: 1.5;
+}

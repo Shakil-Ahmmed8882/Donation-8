@@ -3,7 +3,10 @@ import Navbar from "./Navbar";
 
 const Header = () => {
       return (
-            <Navbar></Navbar>
+            <div className="border-b-2 border border-[#b6b6b63b]">
+                  <Navbar></Navbar>
+            </div>
+
 
       );
 };
