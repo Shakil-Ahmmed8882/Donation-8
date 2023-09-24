@@ -1,0 +1,139 @@
+[
+      {
+        "id": 7,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Donate Your Used Clothes",
+        "category": "education",
+        "bg_color": "#FF444A26",
+        "text_color": "#FF444A",
+        "btn_bg": "#FF444A33",
+        "description": "Give your gently used clothes a second life by donating them to those in need. Your clothing provides warmth and dignity to individuals facing challenges. Join our clothing redistribution effort and create a more sustainable and compassionate world.",
+        "price": 210
+      },
+      {
+        "id": 3,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Contribute to Clothing Drives",
+        "category": "health",
+        "bg_color": "#0052FF26",
+        "text_color": "#0052FF",
+        "btn_bg": "#0052FF33",
+        "description": "Make a difference in the lives of those in need by joining our clothing drive. Your donated clothing items provide warmth and comfort to individuals facing challenges. Help us redistribute clothing to underserved communities and contribute to their well-being. Your generosity brings smiles and hope to those who need it most.",
+        "price": 210
+      },
+      {
+        "id": 1,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Donate for Clean Water",
+        "category": "health",
+        "bg_color": "#0052FF26",
+        "text_color": "#0052FF",
+        "btn_bg": "#0052FF33",
+        "description": "Support access to clean and safe drinking water for communities in need. Clean water is essential for good health and hygiene. Your generous donation helps ensure that children and families have this fundamental resource, improving their overall well-being. Join us in providing the gift of clean water and making a difference in their lives.",
+        "price": 250
+      },
+      {
+        "id": 9,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Ensure Better Food for All",
+        "category": "food",
+        "bg_color": "#F8714726",
+        "text_color": "#F87147",
+        "btn_bg": "#FF444A26",
+        "description": "Join our mission to combat hunger by providing nutritious food to those in need. Your donation ensures that families have access to healthy meals, improving their overall well-being. Together, we can make a significant impact on food security and create a world where no one goes to bed hungry. Be a part of this noble cause.",
+        "price": 280
+      },
+      {
+        "id": 11,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Contribute to Clothing Redistribution",
+        "category": "clothing",
+        "bg_color": "#79C23F26",
+        "text_color": "#79C23F",
+        "btn_bg": "#79C23F33",
+        "description": "Join our clothing redistribution initiative and make a meaningful impact on the lives of those in need. Your donated clothing items can provide warmth and dignity to individuals facing challenges. Help us create a more equitable and compassionate world through clothing redistribution.",
+        "price": 260
+      },
+      {
+        "id": 4,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Help Provide Nutritious Food",
+        "category": "food",
+        "bg_color": "#F8714726",
+        "text_color": "#F87147",
+        "btn_bg": "#FF444A26",
+        "description": "Join our mission to combat hunger by providing nutritious food to those in need. Your donation ensures that families have access to healthy meals, improving their overall well-being. Together, we can make a significant impact on food security and create a world where no one goes to bed hungry. Be a part of this noble cause.",
+        "price": 220
+      },
+      {
+        "id": 5,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Fund Gaming Equipment for Kids",
+        "category": "food",
+        "bg_color": "#F8714726",
+        "text_color": "#F87147",
+        "btn_bg": "#FF444A26",
+        "description": "Support children's development and creativity by funding gaming equipment for underserved communities. Gaming provides entertainment, education, and career opportunities. Your contribution bridges the digital divide, ensuring equal access to these benefits for all children. Join us in empowering the next generation.",
+        "price": 245
+      },
+      {
+        "id": 8,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Clothing for a Cause",
+        "category": "clothing",
+        "bg_color": "#79C23F26",
+        "text_color": "#79C23F",
+        "btn_bg": "#79C23F33",
+        "description": "Join our mission to provide clothing to those in need. Your support helps us make a positive impact by giving clothing to individuals facing challenging circumstances. Together, we can create a more compassionate world through clothing redistribution. Be a part of this cause and make a difference.",
+        "price": 230
+      },
+      {
+        "id": 2,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Support Quality Education",
+        "category": "health",
+        "bg_color": "#0052FF26",
+        "text_color": "#0052FF",
+        "btn_bg": "#0052FF33",
+        "description": "Invest in quality education for a brighter future. Your contribution empowers children to build healthier lives through access to quality education. Education is the cornerstone of personal growth and community development. Join us in supporting educational initiatives and nurturing young minds for a better tomorrow.",
+        "price": 275
+      },
+      {
+        "id": 10,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Support Education Initiatives",
+        "category": "education",
+        "bg_color": "#FF444A26",
+        "text_color": "#FF444A",
+        "btn_bg": "#FF444A33",
+        "description": "Empower students with quality education by supporting educational initiatives. Your contribution supports access to resources, teachers, and opportunities that shape young minds. Education is a powerful tool for personal growth and community development. Join us in making education accessible to all.",
+        "price": 240
+      },
+      {
+        "id": 6,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Invest in Better Education",
+        "category": "education",
+        "bg_color": "#FF444A26",
+        "text_color": "#FF444A",
+        "btn_bg": "#FF444A33",
+        "description": "Empower students with quality education by investing in educational initiatives. Your contribution supports access to resources, teachers, and opportunities that shape young minds. Education is a powerful tool for personal growth and community development. Join us in making education accessible to all.",
+        "price": 225
+      },
+      {
+        "id": 12,
+        "img": "https://visionsvcb.org/wp-content/uploads/2020/03/donate-icon.png",
+        "caption": "Help Us Feed the World",
+        "category": "clothing",
+        "bg_color": "#79C23F26",
+        "text_color": "#79C23F",
+        "btn_bg": "#79C23F33",
+        "description": "Support our mission to combat hunger and provide nutritious food to those in need worldwide. Your donation ensures that families have access to healthy meals, improving their overall well-being. Together, we can make a significant impact on food security and create a world where no one goes to bed hungry. Join us in this noble cause.",
+        "price": 270
+      }
+    ]
+    
+    
+    
+    
+       
