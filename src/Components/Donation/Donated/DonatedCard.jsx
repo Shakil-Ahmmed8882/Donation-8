@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
 
 const DonatedCard = ({ card }) => {
-  const {img, category, caption, bg_color, btn_bg, text_color } = card;
+  const {id,img, category, caption, bg_color, btn_bg, text_color } = card;
+  const navigate = useNavigate()
 
+  
   return (
     <div className="flex gap-1 items-center rounded" style={{ backgroundColor: bg_color }}>
       <div>
@@ -18,7 +21,7 @@ const DonatedCard = ({ card }) => {
           <h1 style={{ color: text_color }} className="font-bold text-[18px]">
             {caption}
           </h1>
-          <button>View Details</button>
+            <button onClick={()=>navigate(`/details/${id}`)} style={{backgroundColor:text_color}} className='text-white px-2 py-2 rounded text-[13px]'>View Details</button>
         </div>
       </div>
     </div>
