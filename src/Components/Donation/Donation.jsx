@@ -1,48 +1,24 @@
-import './donation.css'
-import { useData } from "../../API/useData";
+import "./donation.css";
 import DonationCard from "./DonationCard";
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-const Donation = ({matchedWord,inputValue}) => {
-
-  const { data, error } = useData();
-  const displaySearchData = []
-  
-  if (!data) {
-    console.log(error);
-    return <p className="text-center text-6xl">Loading....</p>;
-  } 
-  else{
-    const filteredDonation = data.filter(eachCard => eachCard.category == matchedWord)
-    displaySearchData.push(...filteredDonation)
-  }
-
-  let xx;
-  if(matchedWord === '' || inputValue === ''){
-    xx = data
-
-  }else{
-    xx = displaySearchData
-    matchedWord = ''
-  }
+const Donation = ({ data }) => {
   return (
-    <div className="max-w-6xl mx-auto pt-8">
+    <div className="max-w-6xl mx-auto pt-8 px-2">
       <div className={`responsive-grid`}>
-      {
-            xx.map((donation) => (
-                  <DonationCard key={donation.id} 
-                  donation={donation}
-                  ></DonationCard>
-                ))
-      }
+        {data.map((donation) => (
+          <DonationCard key={donation.id} donation={donation}></DonationCard>
+        ))}
       </div>
     </div>
   );
 };
 
 Donation.propTypes = {
-  matchedWord:PropTypes.string.isRequired
-}
-
+  matchedWord: PropTypes.string.isRequired,
+  inputValue: PropTypes.string.isRequired,
+  data: PropTypes.array.isRequired,
+  error: PropTypes.string.isRequired,
+};
 
 export default Donation;

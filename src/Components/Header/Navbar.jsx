@@ -13,7 +13,7 @@ const Navbar = () => {
   </>)
   return (
     <div>
-        <div className="navbar bg-[#9a989800] py-6 justify-between items-center max-w-6xl mx-auto">
+        <div className="navbar bg-[#9a989800] py-3 md:py-5 justify-between items-center max-w-6xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

@@ -6,7 +6,7 @@ const Header = () => {
   const location = useLocation();
   const currentPath = location.pathname;
 
-  const isHomePage = currentPath === '/home';
+  const isHomePage = currentPath === '/home' ||  currentPath === '/';
 
   // State to track is being scrolled or not
   const [headerRedBackground, setHeaderRedBackground] = useState(false);
