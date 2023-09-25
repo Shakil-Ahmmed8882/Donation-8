@@ -22,14 +22,15 @@ const Statistics = () => {
             fill="#8884d8"
             labelLine={false} // Remove the label line
           >
-            <Cell key="cell-0" fill="#0088FE" />
+            <Cell key="cell-0" fill="#0088FE"/>
             <Cell key="cell-1" fill="#FFBB28" />
             {/* Display the percentage as a label */}
             <Label
               value={`${percentage}%`}
               position="center"
               fill="white"
-              fontSize={24}
+              fontWeight={'bolder'}
+              fontSize={30}
             />
           </Pie>
         </PieChart>
