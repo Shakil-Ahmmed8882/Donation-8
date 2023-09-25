@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 
 const DonationCard = ({ donation }) => {
+
+
       const {id,img,category,caption,bg_color,btn_bg,text_color} = donation;
       const navigate = useNavigate()
 
@@ -9,6 +11,7 @@ const DonationCard = ({ donation }) => {
             navigate(`/details/${id}`)
       }
       
+
   return (
 <div style={{ backgroundColor: bg_color }} onClick={handleDetails} className='cursor-pointer rounded-lg'>
       <img className='w-full h-[200px] object-cover' src={img} alt={caption}/>
@@ -22,6 +25,7 @@ const DonationCard = ({ donation }) => {
 
 DonationCard.propTypes = {
   donation: PropTypes.object.isRequired, 
+  matchedWord:PropTypes.string.isRequired
 };
 
 export default DonationCard;
