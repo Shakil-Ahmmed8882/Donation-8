@@ -2,14 +2,14 @@ import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 
 const DonatedCard = ({ card }) => {
-  const {id,img, category, caption, bg_color, btn_bg, text_color } = card;
+  const {id,img,price, category, caption, bg_color, btn_bg, text_color } = card;
   const navigate = useNavigate()
 
   
   return (
-    <div className="flex gap-1 items-center rounded" style={{ backgroundColor: bg_color }}>
+    <div className="sm:flex gap-1  rounded" style={{ backgroundColor: bg_color }}>
       <div>
-        <img className="w-[160px]" src={img} alt="" />
+        <img className="w-[100%] sm:w-[180px] h-full object-cover rounded-tl-lg rounded-bl-lg" src={img} alt="" />
       </div>
       <div>
         <div className="p-3 space-y-3">
@@ -18,9 +18,10 @@ const DonatedCard = ({ card }) => {
             className="py-1 px-3 rounded font-bold text-[14px]">
             {category}
           </button>
-          <h1 style={{ color: text_color }} className="font-bold text-[18px]">
+          <h1 className="font-bold md:text-[20px]">
             {caption}
           </h1>
+          <p style={{color:text_color,fontWeight:'bold'}}>${price}</p>
             <button onClick={()=>navigate(`/details/${id}`)} style={{backgroundColor:text_color}} className='text-white px-2 py-2 rounded text-[13px]'>View Details</button>
         </div>
       </div>
@@ -37,6 +38,7 @@ DonatedCard.propTypes = {
     bg_color: PropTypes.string.isRequired,
     btn_bg: PropTypes.string.isRequired,
     text_color: PropTypes.string.isRequired,
+    price:PropTypes.number.isRequired
   }).isRequired,
 };
 

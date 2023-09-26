@@ -1,3 +1,6 @@
+body{
+      min-width: 250px;
+}
 .banner-bg{
       background:linear-gradient(to top,rgba(255, 255, 255, 0.915),rgba(255, 255, 255, 0.71)), url('https://i.ibb.co/7bNz2Ns/banner-bg-cover.jpg');
       background-attachment: fixed;

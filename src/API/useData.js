@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { getData } from './data_services'
 
-const useData = (d) => {
+const useData = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
@@ -17,7 +17,7 @@ const useData = (d) => {
     };
 
     fetchData();
-  }, [d]);
+  }, []);
 
   return { data, error };
 };

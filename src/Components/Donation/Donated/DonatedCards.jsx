@@ -29,7 +29,7 @@ const DonatedCards = () => {
 
       return (
             <div className="mb-8">
-            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-7 py-11">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-7 py-11 px-2">
                   {
                         DonatedItems?.slice(0,dataLength).map(card => <DonatedCard key={card.id} card={card}></DonatedCard>)
                   }

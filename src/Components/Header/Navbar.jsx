@@ -9,7 +9,7 @@ const Navbar = () => {
   </>
   )
   const logLink = (<>
-            <a className="normal-case text-xl"><img className="w-40" src="/public/assets/img/Logo.png" alt="" /></a>
+            <a className="normal-case text-xl"><img className="w-40" src="https://i.ibb.co/NKb4vNf/Logo.png" alt="" /></a>
   </>)
   return (
     <div>
