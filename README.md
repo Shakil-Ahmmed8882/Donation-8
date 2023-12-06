@@ -53,7 +53,7 @@ npm install
 ```
 
 ## Live link 
-[Live site](http://scrawny-umbrella.surge.sh/)
+[Live site](http://helpless-beef.surge.sh/)
 ## Thank you
 
 I would like to express my sincere gratitude to all the contributors and users of this project. Your support and contributions make this project possible, and we couldn't have done it without you.
